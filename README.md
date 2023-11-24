@@ -1,4 +1,4 @@
-# Python Social Auth
+# No BullShit Python Social Auth
 
 ## Inspiration:
 Building SPAs and RestFul APIs in python frameworks like Django/ FastAPI/ Flask etc are a delight unless we encounter adding social login.
@@ -51,3 +51,5 @@ def check_social_auth_code(request,code:str):
         # Handle the Error and pass a meaningful error message to the client 
 
 ```
+
+Drop issues [here](https://github.com/Gupta-Anubhav12/nbs-social-auth/issues)
