@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "nbs_social_auth"
+version = "0.1.0"
+description = "A no BS auth package to add google login to your Restful APIs"
+authors = ["Gupta-Anubhav12"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nbs_social_auth"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
